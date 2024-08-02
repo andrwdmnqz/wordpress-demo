@@ -1,0 +1,38 @@
+# Основні файли та папки WordPress
+/wp-admin/
+/wp-includes/
+/wp-content/cache/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-*/
+
+# Конфігураційні файли
+wp-config.php
+wp-config-sample.php
+.htaccess
+
+# Логи
+*.log
+
+# Тимчасові файли
+*.tmp
+*.temp
+
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE та редактори
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/
+
+# Інші
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
